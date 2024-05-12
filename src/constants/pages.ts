@@ -1,0 +1,56 @@
+enum Pages {
+  LetsYouIn = 'LetsYouIn',
+  Media = 'Media',
+  Matched = 'Matched',
+  Subscribe = 'Subscribe',
+  Chat_Details = 'Chat_Details',
+  Profile_Detail = 'Profile_Detail',
+  Personal_Information = 'Personal_Information',
+  Discovery_Settings = 'Discovery_Settings',
+  Notifications = 'Notifications',
+  Blocked_Users = 'Blocked_Users',
+  Language = 'Language',
+  Edit_Profile = 'Edit_Profile',
+  My_Profile = 'My_Profile',
+  Single_Edit_Profile = 'Single_Edit_Profile',
+
+  //* Account Setup
+  FullName = 'FullName',
+  Username = 'Username',
+  Email = 'Email',
+  Birthday = 'Birthday',
+  Biography = 'Biography',
+  Gender = 'Gender',
+  Gender_Preference = 'Gender_Preference',
+  Genre = 'Genre',
+  Favorite = 'Favorite',
+  Avatar = 'Avatar',
+  Location_Permission = 'Location_Permission',
+  Swipe_Back = 'Swipe_Back',
+  Settings = 'Settings',
+  Help_Center = 'Help_Center',
+  Privacy_Policy = 'Privacy_Policy',
+  Terms_Of_Service = 'Terms_Of_Service',
+  //* Bottom Tab
+  Bottom_Tab = 'Bottom_Tab',
+  Matches = 'Matches',
+  Home = 'Home',
+  Profile = 'Profile',
+  Chats = 'Chats',
+  Chat_Image = 'Chat_Image',
+}
+
+export const AccountSetupPages = [
+  Pages.FullName,
+  Pages.Username,
+  Pages.Email,
+  Pages.Birthday,
+  Pages.Biography,
+  Pages.Gender,
+  Pages.Gender_Preference,
+  Pages.Genre,
+  Pages.Favorite,
+  Pages.Avatar,
+];
+
+export default Pages;

@@ -1,0 +1,332 @@
+{
+  "components": {
+    "google": "Google ile devam et",
+    "apple": "Apple ile devam et",
+
+    "card": {
+      "messageCard": {
+        "camera": "Anlık",
+        "image": "Galeri",
+        "copiedToClipboard": "Panoya kopyalandı"
+      },
+      "subscribeCard": {
+        "title": "Tüm Avantajlardan Yararlanın",
+        "description": "Sinematch Premium ile tüm kısıtlamaları aşın!",
+        "button": "Abone Ol",
+        "month": "{{price}}/Ay",
+        "premiumTitle": "Sinematch Premium",
+        "premiumExpired": "Yenilenme Tarihi: {{date}}"
+      },
+      "ignoredCard": {
+        "cancel": "İptal Et",
+        "takeItBack": "Geri Al",
+        "takeItBackDescription": "Eşleşmeyi geri almak istediğinizden emin misiniz?"
+      },
+      "likesSwipeCard": {
+        "like": "Beğen",
+        "dislike": "Beğenme"
+      }
+    },
+    "bottomSheet": {
+      "profileDetailSettings": {
+        "title": "{{fullName}} adlı kişiyi engelle",
+        "subTitle": "{{fullName}} artık sizinle eşleşemez, mesaj gönderemez ve {{fullName}}'dan gelen bildirimleri görmezsiniz",
+        "block": "Engelle",
+        "cancel": "İptal Et",
+        "blockUser": "Kullanıcıyı Engelle"
+      },
+      "chatDetail": {
+        "endConversation": "Eşleşmeyi Bitir ve Sohbeti Sil",
+        "block": "Engelle ve Sohbeti Bitir",
+        "endConversationDescription": "{{fullName}} ile olan sohbetinizi bitirmek istediğinden emin misin?",
+        "blockDescription": "{{fullName}} kullanıcısını engellemek ve sohbeti bitirmek istediğinden emin misin? Engellersen bir daha eşleşemezsiniz",
+        "endConversationButton": "Sil",
+        "blockButton": "Engelle",
+        "cancel": "İptal Et"
+      },
+      "logout": {
+        "title": "Çıkış Yap",
+        "subTitle": "Çıkış yapmak istediğinden emin misin?",
+        "cancel": "İptal Et",
+        "logout": "Evet, Çıkış Yap"
+      }
+    },
+    "button": {
+      "settings": {
+        "personalInformation": "Kişisel Bilgiler",
+        "discoverySettings": "Keşfet Ayarları",
+        "notifications": "Bildirimler",
+        "blockedUsers": "Engellenen Kullanıcılar",
+        "deleteAccount": "Hesabı Sil",
+        "language": "Dil",
+        "restorePurchases": "Satın Alımları Geri Yükle"
+      },
+      "personalInformation": { "1": "Erkek", "2": "Kadın" },
+      "notification": {
+        "newMessage": "Yeni Mesaj",
+        "matchRequests": "Eşleşme İstekleri",
+        "matchAcceptance": "Eşleşme Kabulü"
+      },
+      "blockedUsers": {
+        "unBlock": "Engeli Kaldır",
+        "description": "Bu kullanıcının engelini kaldırmak istediğinizden emin misiniz?",
+        "yes": "Evet",
+        "no": "Hayır"
+      },
+      "editProfile": {
+        "fullName": "Ad Soyad",
+        "userName": "Kullanıcı Adı",
+        "email": "E-posta",
+        "birthday": "Doğum günün",
+        "gender": "Cinsiyet",
+        "biography": "Biyografi",
+        "1": "Erkek",
+        "2": "Kadın"
+      }
+    },
+    "singleEditProfile": {
+      "save": "Kaydet",
+      "male": "Erkek",
+      "female": "Kadın"
+    }
+  },
+  "mediaTypes": {
+    "movie": "Film",
+    "tv": "Dizi",
+    "all": "Hepsi",
+    "person": "Aktör"
+  },
+  "hooks": {
+    "useImagePicker": {
+      "choose": "Bitti",
+      "cancel": "İptal",
+      "process": "Fotoğrafınız yükleniyor..."
+    }
+  },
+  "screens": {
+    "letsYouIn": {
+      "welcome": "Sinematch'e hoşgeldin!",
+      "title": "Aynı dizi ve film zevkine sahip insanlarla tanışmaya hazır mısın?",
+      "or": "veya",
+      "signInEmail": "E-posta ile giriş yap",
+      "dontHaveAccount": "Hesabınız yok mu? ",
+      "signUp": "Kaydol"
+    },
+    "signUp": {
+      "fullName": {
+        "title": "Sinematch'e hoşgeldin!",
+        "subTitle": "İsmini öğrenebilir miyiz?",
+        "description": "İnsanlar profilinde bu ismi görecek.",
+        "alertText": "İsmini daha sonra ayarlardan güncelleyebilirsin.",
+        "placeholder": "İsminiz"
+      },
+      "userName": {
+        "title": "Merhaba {{fullName}}",
+        "subTitle": "kullanıcı adın ne olsun?",
+        "description": "İnsanlar profiline bu kullanıcı adıyla erişecek.",
+        "placeholder": "Kullanıcı Adınız",
+        "alertText": "İsmini daha sonra ayarlardan güncelleyebilceksin"
+      },
+      "email": {
+        "title": "E-postan nedir?",
+        "description": "Seninle iletişime geçebilmemiz için e-postanı girmelisin.",
+        "placeholder": "E-posta adresiniz",
+        "alertText": "Başkaları e-postanı görmeyecek."
+      },
+      "birthday": {
+        "title": "Doğum günün ne zaman?",
+        "alertText": "Başkaları doğum tarihini görmeyecek.",
+        "placeholder": "GG-AA-YYYY"
+      },
+      "biography": {
+        "title": "Kendinden, film ve dizi zevkinden bahset!",
+        "description": "İnsanlar profiline girdiği zaman hakkında kısmında burada yazdıklarını görecek",
+        "placeholder": "Bize kendinden bahset!",
+        "alertText": "Bunu istediğin zaman ayarlardan güncelleyebilirsin",
+        "defaultState": "Film ve dizi zevkimiz uyuşsun yeter."
+      },
+      "gender": {
+        "title": "Cinsiyetin?",
+        "alertText": "Başkaları cinsiyetini göremeyecek.",
+        "male": "Erkek",
+        "female": "Kadın",
+        "none": "Belirtmek İstemiyorum"
+      },
+      "genderPreference": {
+        "both": "İkisi de",
+        "title": "Cinsiyet tercihin?",
+        "alertText": "Başkaları cinsiyet tercihini göremeyecek."
+      },
+      "genre": {
+        "title": "Favori film ve dizi türlerinizi seçiniz",
+        "description": "Favori türlerinizi ekleyerek herkesin hangi türle ilgili olduğunuzu bilmesini sağlayın.",
+        "updateGenre": "Türlerini daha sonra ayarlardan güncelleyebilirsin.",
+        "minGenre": "En az 5 tür seçmelisin"
+      },
+      "favorite": {
+        "title": "Hadi başlayalım!",
+        "description": "Favori filmlerini ve dizilerini ekleyerek herkesin hangi türle ilgili olduğunuzu bilmesini sağlayın.",
+        "alertText": "Favorilerini daha sonra ayarlardan güncelleyebilirsin.",
+        "searchMedia": "Film veya dizileri arayin",
+        "noMoreData": " için daha fazla sonuç bulunamadı.",
+        "empty": "Henüz herhangi bir favori film veya dizi eklemediniz."
+      },
+
+      "avatar": {
+        "title": "Fotoğraf ekle",
+        "description": "En iyi Sinematch deneyimini yaşamak ve profilini tamamlamak için işte son adım!"
+      },
+      "notificationPermission": {
+        "title": "Hiçbir şeyi kaçırma 🔔",
+        "description": "Eşleştiğinde veya mesaj geldiginde haberin olsun.",
+        "allow": "İzin Ver"
+      },
+      "locationPermission": {
+        "title": "Konumuna İzin Ver 📍",
+        "description": "Size yakın eşleşmelerinizi göstermek için konumunuzu kullanıyoruz.",
+        "allow": "İzin Ver ve Bitir"
+      },
+      "continue": "Devam et"
+    },
+    "home": {
+      "notConnecting": "Bağlanamıyoruz",
+      "notConnectingTitle": "Sinematch'i kullanabilmek için konum paylaşımını etkinleştirmelisin. Böylece etrafta kimlerin olduğunu sana gösterebiliriz.",
+      "notConnectingSubTitle": "Şuraya gidin: Ayarlar > Sinematch > Konum > Uygulamayı Kullanırken Konum Erişimine İzin Ver",
+      "openSettings": "Ayarları Aç",
+      "goodMorning": "Günaydın ☀️",
+      "goodAfternoon": "Tünaydın 🌤",
+      "goodEvening": "İyi Akşamlar 🌙"
+    },
+    "matched": {
+      "title": "Eşleştiniz",
+      "subTitle": "Onu bekletme, hemen merhaba de!",
+      "sayHello": "Merhaba de",
+      "keepSwiping": "Kaydırmaya Devam Et"
+    },
+    "profileDetail": {
+      "about": "Hakkında",
+      "commonMovies": "Ortak Filmleriniz",
+      "commonSeries": "Ortak Dizileriniz",
+      "commonGenres": "Ortak Türleriniz",
+      "favoriteMovies": "Favori Filmleri",
+      "favoriteSeries": "Favori Dizileri",
+      "favoriteGenres": "Favori Türleri",
+      "common": "Ortak",
+      "profile": "Profil"
+    },
+    "matches": {
+      "likesListEmptyTitle": "Seni Henüz Kimse Beğenmedi 😔",
+      "likesListEmptyDescription": "Birisi sizi eşleşmelerden beğendiğinde burada görünecek",
+      "ignoredListEmptyTitle": "Yok Saydığın Kimse Yok",
+      "ignoredListEmptyDescription": "Eşleşmelerinden yok saydığın kişilere buradan ikinci bir şans verebilirsin",
+      "likes": "Seni Beğenenler",
+      "ignored": "Yok Saydıkların"
+    },
+    "swipeBack": {
+      "back": "Geri"
+    },
+    "chats": {
+      "chats": "Sohbetler",
+      "newMatches": "Yeni Eşleşmeler",
+      "alertTitle": "Sil",
+      "alertDescription": "Bu sohbeti silmek istediğinden emin misin?",
+      "cancel": "İptal Et",
+      "delete": "Sil",
+      "shareOwner": "Bir {{object}} paylaştın",
+      "shareReceiver": "Bir {{object}} paylaştı",
+      "listEmptyTitle": "Henüz sohbetiniz yok",
+      "listEmptyDescription": "Eşleşmelerini kabul ederek yeni bir sohbet başlatabilirsin"
+    },
+    "chatDetail": {
+      "camera": "Kamera",
+      "image": "Galeri",
+      "textAreaPlaceholder": "Bir mesaj yaz...",
+      "userEndedConversation": "Kullanıcı sohbeti sonlandırdı",
+      "typing": "yazıyor",
+      "notFound": "Sohbet bulunamadı"
+    },
+    "profile": {
+      "settings": "Ayarlar",
+      "helpCenter": "Yardım Merkezi",
+      "logout": "Çıkış Yap"
+    },
+    "subscribe": {
+      "description": "Eşleşmelerde en üst sıraya çıkın ve aboneliğiniz süresince sınırsız beğenme hakkının tadını çıkarın. Ayrıca, geri almak istediğiniz reddettiğiniz eşleşmelerde sınırlama yok.",
+      "footerTitle": "Yinelenen faturalandirma, istedigin zaman iptal et.",
+      "privacyPolicy": "Gizlilik Politikası",
+      "termsOfService": "Hizmet Koşulları",
+      "continue": "Devam Et"
+    },
+    "settings": {
+      "title": "Ayarlar",
+      "deleteAccountTitle": "Hesabını Sil",
+      "deleteAccountDescription": "Hesabını silmek istediğinden emin misin? Bu işlem geri alınamaz.",
+      "cancel": "İptal Et",
+      "delete": "Sil",
+      "restorePurchasesAlertTitle": "Satın alma işlemini geri yükle",
+      "restorePurchasesAlertSuccess": "Satın alma işleminizi başarıyla geri yüklediniz",
+      "restorePurchasesAlertError": "Aktif aboneliğiniz yok"
+    },
+    "personalInformation": {
+      "title": "Kişisel Bilgiler",
+      "1": "Standart Üyelik",
+      "2": "Premium Üyelik"
+    },
+    "notifications": {
+      "title": "Bildirimler",
+      "save": "Kaydet"
+    },
+    "language": {
+      "title": "Dil",
+      "en": "İngilizce",
+      "tr": "Türkçe",
+      "save": "Kaydet"
+    },
+    "discoverySettings": {
+      "title": "Keşfet Ayarları",
+      "male": "Erkek",
+      "female": "Kadın",
+      "both": "İkisi de",
+      "matchFilter": "Eşleşme Filtresi",
+      "genderPreference": "Cinsiyet Tercihi",
+      "matchType": "Eşleşme Türü",
+      "ageRange": "Yaş Aralığı",
+      "applyFilter": "Filtrele",
+      "filteredUsers": "Kullanıcılar filtrelendi"
+    },
+    "blockedUsers": {
+      "title": "Engellenen Kullanıcılar",
+      "unblock": "Engeli Kaldır",
+      "noData": "Henüz engellediğin bir kullanıcı yok"
+    },
+    "helpCenter": {
+      "title": "Yardım Merkezi",
+      "contactUs": "Bize Ulaşın",
+      "privacyPolicy": "Gizlilik Politikası",
+      "termsOfService": "Hizmet Koşulları"
+    },
+    "compareProfile": {
+      "noCommonData": "Ortak dizi ve film bulunamadı"
+    },
+    "myProfile": {
+      "favoriteMovies": "Favori Filmlerim",
+      "favoriteSeries": "Favori Dizilerim",
+      "favoriteGenres": "Favori Türlerim"
+    },
+    "editProfile": {
+      "title": "Profilini Düzenle",
+      "save": "Kaydet"
+    }
+  },
+  "navigation": {
+    "home": "Keşfet",
+    "matches": "Eşleşmeler",
+    "chats": "Sohbetler",
+    "profile": "Profil"
+  },
+  "lib": {
+    "formatDate": {
+      "yesterday": "Dün"
+    }
+  }
+}

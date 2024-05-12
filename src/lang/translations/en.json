@@ -1,0 +1,333 @@
+{
+  "components": {
+    "google": "Continue with Google",
+    "apple": "Continue with Apple",
+    "bottomSheet": {
+      "profileDetailSettings": {
+        "title": "Block {{fullName}}",
+        "subTitle": "{{fullName}} can no longer match you, send messages and see notifications from {{fullName}}",
+        "cancel": "Cancel",
+        "block": "Block",
+        "blockUser": "Block User"
+      },
+      "chatDetail": {
+        "endConversation": "End Match and Delete Chat",
+        "block": "Block and Delete Chat",
+        "endConversationDescription": "Are you sure you want to end this chat with {{fullName}}?",
+        "blockDescription": "Are you sure you want to block {{fullName}} and end the conversation? If you block, you will not be able to work together again",
+        "endConversationButton": "Delete",
+        "blockButton": "Block",
+        "cancel": "Cancel"
+      },
+      "logout": {
+        "title": "Logout",
+        "subTitle": "Are you sure you want to log out?",
+        "cancel": "Cancel",
+        "logout": "Yes, Logout"
+      }
+    },
+    "card": {
+      "messageCard": {
+        "camera": "Camera",
+        "image": "Gallery",
+        "copiedToClipboard": "Copied to clipboard"
+      },
+      "subscribeCard": {
+        "title": "Enjoy All Benefits",
+        "description": "Overcome all restrictions with Sinematch Premium!",
+        "button": "Subscribe",
+        "month": "{{price}}/Month",
+        "premiumTitle": "Sinematch Premium",
+        "premiumExpired": "Renewal Date: {{date}}"
+      },
+      "ignoredCard": {
+        "cancel": "Cancel",
+        "takeItBack": "Take it back",
+        "takeItBackDescription": "Are you sure you want to undo the match?"
+      },
+      "likesSwipeCard": {
+        "like": "Like",
+        "dislike": "Dislike"
+      }
+    },
+    "button": {
+      "settings": {
+        "personalInformation": "Personal Information",
+        "discoverySettings": "Discovery Settings",
+        "notifications": "Notifications",
+        "blockedUsers": "Blocked Users",
+        "deleteAccount": "Delete Account",
+        "language": "Language",
+        "restorePurchases": "Restore Purchases"
+      },
+      "personalInformation": {
+        "1": "Male",
+        "2": "Female"
+      },
+      "notification": {
+        "newMessage": "New Message",
+        "matchRequests": "Match Requests",
+        "matchAcceptance": "Match Acceptance"
+      },
+      "blockedUsers": {
+        "unBlock": "Unblock",
+        "description": "Are you sure you want to unblock this user?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "editProfile": {
+        "fullName": "Full Name",
+        "userName": "Username",
+        "email": "Email",
+        "birthday": "Birthday",
+        "gender": "Gender",
+        "biography": "Biography",
+        "1": "Male",
+        "2": "Female"
+      }
+    },
+    "singleEditProfile": {
+      "save": "Save",
+      "male": "Male",
+      "female": "Female"
+    }
+  },
+
+  "mediaTypes": {
+    "movie": "Movie",
+    "tv": "Series",
+    "person": "Actor",
+    "all": "All"
+  },
+  "hooks": {
+    "useImagePicker": {
+      "choose": "Choose",
+      "cancel": "Cancel",
+      "process": "Processing assets..."
+    }
+  },
+  "screens": {
+    "letsYouIn": {
+      "welcome": "Welcome to Sinematch!",
+      "title": "Are you ready to meet people with the same taste in TV shows and movies?",
+      "or": "or",
+      "signInEmail": "Sign in with email",
+      "dontHaveAccount": "Don’t have an account? ",
+      "signUp": "Sign up"
+    },
+    "signUp": {
+      "fullName": {
+        "title": "Welcome to Sinematch!",
+        "subTitle": "People will see this name on your profile.",
+        "description": "People will see this name on your profile.",
+        "placeholder": "Name",
+        "alertText": "You can change it later."
+      },
+      "userName": {
+        "title": "Hello {{fullName}}",
+        "subTitle": "set your username.",
+        "description": "You can share your Sinematch username with your friends, others can find you through this.",
+        "placeholder": "Username",
+        "alertText": "You can change your username later in settings."
+      },
+      "email": {
+        "title": "What is your email?",
+        "description": "Share e-mail address where we can keep in touch with you.",
+        "placeholder": "Your email",
+        "alertText": "Nobody can see your e-mail. You can update your e-mail whenever you want."
+      },
+      "birthday": {
+        "title": "When is your birthday?",
+        "alertText": "Your birthday won't be able to seen.",
+        "placeholder": "MM-DD-YYYY"
+      },
+      "biography": {
+        "title": "Tell us about yourself and your taste in movies and TV shows.",
+        "description": "People will see your bio on your profile.",
+        "placeholder": "Tell me about yourself",
+        "alertText": "You can update your bio anytime from the settings.",
+        "defaultState": "Just let our taste in movies and TV series match."
+      },
+      "gender": {
+        "title": "Your gender?",
+        "alertText": "Nobody can see your gender.",
+        "male": "Male",
+        "female": "Female",
+        "none": "Prefer not to say"
+      },
+      "genderPreference": {
+        "both": "Both",
+        "title": "What's your gender preference?",
+        "alertText": "Nobody can see your gender preference."
+      },
+      "genre": {
+        "title": "Choose your favorite movie and series genres",
+        "description": "Add your favorite genres so everyone knows what genre you're into",
+        "updateGenre": "You can update your genres anytime from the settings.",
+        "minGenre": "You must choose at least 5 types"
+      },
+      "favorite": {
+        "title": "Let's get started!",
+        "description": "Let everyone know what genre you're into by adding their favorite movies and TV shows.",
+        "alertText": "You can update your favorites anytime from the settings.",
+        "noMoreData": "No further results were found for ",
+        "searchMedia": "Search for movies or TV shows",
+        "empty": "You haven't added any favorite movies or TV shows yet."
+      },
+      "avatar": {
+        "title": "Add photo",
+        "description": "Here is the final step to get the best Sinematch experience and complete your profile!"
+      },
+      "notificationPermission": {
+        "title": "Don't miss anything 🔔",
+        "description": "Get notified when matched or message received.",
+        "allow": "Allow"
+      },
+      "locationPermission": {
+        "title": "Allow Location 📍",
+        "description": "We use your location to show your matches that are close to you.",
+        "allow": "Allow and End"
+      },
+      "continue": "Continue"
+    },
+    "home": {
+      "notConnecting": "We can't connect",
+      "notConnectingTitle": "To use Sinematch, you must enable location sharing. So we can show you who's around.",
+      "notConnectingSubTitle": "Go to: Settings > Sinematch > Location > Allow Location Access While Using App",
+      "openSettings": "Open Settings",
+      "goodMorning": "Good Morning ☀️",
+      "goodAfternoon": "Good Afternoon 🌤️",
+      "goodEvening": "Good Evening 🌙"
+    },
+    "matched": {
+      "title": "It’s a Match",
+      "subTitle": "Don't keep her waiting, say hello now!",
+      "sayHello": "Say Hello",
+      "keepSwiping": "Keep Swiping"
+    },
+    "profileDetail": {
+      "about": "About",
+      "commonMovies": "Movies in Common",
+      "commonSeries": "Series in Common",
+      "commonGenres": "Genres in Common",
+      "favoriteMovies": "Favorite Movies",
+      "favoriteSeries": "Favorite Series",
+      "favoriteGenres": "Favorite Genres",
+      "common": "Common",
+      "profile": "Profile"
+    },
+    "matches": {
+      "likesListEmptyTitle": "No one Has Liked You Yet 😔",
+      "likesListEmptyDescription": "It will appear here when someone likes you from matches",
+      "ignoredListEmptyTitle": "You Haven't Ignored Anyone Yet",
+      "ignoredListEmptyDescription": "You can give a second chance to the people you ignored from here",
+      "likes": "People Who Like You",
+      "ignored": "Ignored Matches"
+    },
+    "swipeBack": {
+      "back": "Back"
+    },
+    "chats": {
+      "chats": "Chats",
+      "newMatches": "New Matches",
+      "alertTitle": "Delete",
+      "alertDescription": "Are you sure you want to delete this conversation?",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "shareOwner": "You shared a {{object}}",
+      "shareReceiver": "Shared a {{object}} with you",
+      "listEmptyTitle": "You don't have any chats yet",
+      "listEmptyDescription": "You can start a new chat by accepting their matches"
+    },
+    "chatDetail": {
+      "camera": "Camera",
+      "image": "Gallery",
+      "textAreaPlaceholder": "Write a message...",
+      "userEndedConversation": "User terminated the conversation",
+      "typing": "typing",
+      "notFound": "Chat not found"
+    },
+    "profile": {
+      "settings": "Settings",
+      "helpCenter": "Help Center",
+      "logout": "Logout"
+    },
+    "subscribe": {
+      "description": "Get to the top of matches and enjoy unlimited likes for the duration of your subscription. Plus, there's no limit to the number of rejected matches you want to take back.",
+      "footerTitle": "Recurring billing, cancel at any time.",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "continue": "Continue"
+    },
+    "settings": {
+      "title": "Settings",
+      "deleteAccountTitle": "Delete Account",
+      "deleteAccountDescription": "Are you sure you want to delete your account? This action cannot be undone.",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "restorePurchasesAlertTitle": "Restore purchase",
+      "restorePurchasesAlertSuccess": "You have successfully restored your purchase",
+      "restorePurchasesAlertError": "You have no active subscriptions"
+    },
+    "personalInformation": {
+      "title": "Personal Information",
+      "1": "Standard Account",
+      "2": "Premium Account"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "save": "Save"
+    },
+    "language": {
+      "title": "Language",
+      "en": "English",
+      "tr": "Turkish",
+      "save": "Save"
+    },
+    "discoverySettings": {
+      "title": "Discovery Settings",
+      "male": "Male",
+      "female": "Female",
+      "both": "Both",
+      "matchFilter": "Match Filter",
+      "genderPreference": "Gender Preference",
+      "matchType": "Match Type",
+      "ageRange": "Age Range",
+      "applyFilter": "Apply",
+      "filteredUsers": "Users have been filtered"
+    },
+    "blockedUsers": {
+      "title": "Blocked Users",
+      "noData": "You haven't blocked anyone yet"
+    },
+    "helpCenter": {
+      "title": "Help Center",
+      "contactUs": "Contact Us",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "compareProfile": {
+      "noCommonData": "No common TV series and movies found"
+    },
+    "myProfile": {
+      "favoriteMovies": "My Favorite Movies",
+      "favoriteSeries": "My Favorite Series",
+      "favoriteGenres": "My Favorite Genres"
+    },
+    "editProfile": {
+      "title": "Edit Profile",
+      "save": "Save"
+    }
+  },
+  "navigation": {
+    "home": "Discover",
+    "matches": "Matches",
+    "chats": "Chats",
+    "profile": "Profile"
+  },
+  "lib": {
+    "formatDate": {
+      "yesterday": "Yesterday"
+    }
+  }
+}
